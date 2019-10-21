@@ -1,0 +1,20 @@
+package com.bridgelabz.diconstructor;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.bridgelabz.diconstructor.Student;;
+
+public class Exam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext context = new ClassPathXmlApplicationContext("beanssetter.xml");
+		Student s1 = context.getBean("Student1", Student.class);
+		s1.displayStudentInfo();
+
+		Student s2 = context.getBean("Student2", Student.class);
+		s2.displayStudentInfo();
+	}
+
+}

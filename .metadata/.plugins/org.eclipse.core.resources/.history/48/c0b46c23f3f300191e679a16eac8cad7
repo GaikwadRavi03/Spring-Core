@@ -1,0 +1,15 @@
+package com.bridgelabz.disetter;
+
+public class Student {
+	private int studentId;
+	private int studentName;
+
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+
+	public void setStudentName(int studentName) {
+		this.studentName = studentName;
+	}
+
+}

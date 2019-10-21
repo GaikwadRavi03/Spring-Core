@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.bridgelabz.springioc.Sim"/>
+<fullyQualifiedTypeName name="com.bridgelabz.disetter.Student"/>
+<fullyQualifiedTypeName name="com.bridgelabz.diconstructor.Student"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+</qualifiedTypeNameHistroy>

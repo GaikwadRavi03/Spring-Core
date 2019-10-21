@@ -1,0 +1,22 @@
+package com.bridgelabz.diconstructor;
+
+public class Student1 {
+
+	private int studentId;
+	private String studentName;
+
+	public Student1(int studentId) {
+		this.studentId = studentId;
+	}
+
+	public Student1(int studentId, String studentName) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+
+	public void displayStudentInfo() {
+		System.out.println("Student id :" + studentId);
+		System.out.println("Student Name :" + studentName);
+	}
+
+}
