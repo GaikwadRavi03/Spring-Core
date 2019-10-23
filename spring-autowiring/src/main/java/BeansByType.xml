@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="addressObj"
+		class="com.bridgelabz.autowiring_bytype.Address1">
+		<property name="city" value="pune" />
+		<property name="state" value="MH" />
+		<property name="zip" value="411041" />
+	</bean>
+
+	<bean id="emp" class="com.bridgelabz.autowiring_bytype.Employee1"
+		autowire="byType">
+		<property name="id" value="03" />
+		<property name="name" value="Ravi" />
+	</bean>
+
+</beans>
