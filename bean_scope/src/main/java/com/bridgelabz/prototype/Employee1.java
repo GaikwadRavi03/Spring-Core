@@ -1,9 +1,6 @@
-package com.bridgelabz.lifecycle;
+package com.bridgelabz.prototype;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-
-public class Employee {
+public class Employee1 {
 
 	private int id;
 	private String name;
@@ -29,13 +26,4 @@ public class Employee {
 		return "Employee [id=" + id + ", name=" + name + "]";
 	}
 
-	@PostConstruct
-	public void init() {
-		System.out.println("init method called");
-	}
-
-	@PreDestroy
-	public void destroy() {
-		System.out.println("destroy method called");
-	}
 }
