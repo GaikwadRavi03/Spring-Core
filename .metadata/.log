@@ -8327,3 +8327,12 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 10:23:37.153
 !MESSAGE executing callback sts4.classpath.LqhiSPRd SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-10-24 10:32:49.270
+!MESSAGE Invalid ZIP archive: /home/admin1/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.16/byte-buddy-agent-1.9.16.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-10-24 10:32:49.271
+!MESSAGE Invalid ZIP archive: /home/admin1/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-10-24 10:32:49.272
+!MESSAGE Invalid ZIP archive: /home/admin1/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar

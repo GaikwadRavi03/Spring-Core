@@ -1,6 +1,7 @@
 package com.bridgelabz.aop.controller;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.bridgelabz.aop.services.ShapeService;
@@ -14,6 +15,6 @@ public class Test {
 		// System.out.println("triangel name is:"+" "+shape.getTriangel().getName());
 		// System.out.println("circle name is:"+" "+shape.getCircle().getName());
 		shape.getCircle().setName("dummy name");
-
+		((AbstractApplicationContext) context).close();
 	}
 }
