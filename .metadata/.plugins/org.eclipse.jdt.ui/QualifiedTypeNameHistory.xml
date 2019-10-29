@@ -19,9 +19,20 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="com.bridgelabz.annotation.Collage"/>
 <fullyQualifiedTypeName name="com.bridgelabz.annotation.College"/>
+<fullyQualifiedTypeName name="com.bridgelabz.beanscope.Employee"/>
+<fullyQualifiedTypeName name="com.bridgelabz.prototype.Employee"/>
+<fullyQualifiedTypeName name="com.bridgelabz.injectobject_setter.Employee"/>
+<fullyQualifiedTypeName name="com.bridgelabz.injectobject_setter.Address"/>
+<fullyQualifiedTypeName name="com.bridgelabz.injectobject_constructor.Address"/>
+<fullyQualifiedTypeName name="com.bridgelabz.injectobject_constructor.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+<fullyQualifiedTypeName name="com.bridgelabz.lifecycle_using_callbackinterface.Employee"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="com.bridgelabz.beanscope.Employee"/>
-<fullyQualifiedTypeName name="com.bridgelabz.prototype.Employee"/>
+<fullyQualifiedTypeName name="com.bridgelabz.lifecycle_using_xmlconfig.Employee"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterReturning"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
 </qualifiedTypeNameHistroy>
