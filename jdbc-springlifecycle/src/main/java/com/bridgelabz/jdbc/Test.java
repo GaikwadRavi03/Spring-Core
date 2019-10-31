@@ -7,6 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 		StudentDao s1 = context.getBean("studentdao", StudentDao.class);

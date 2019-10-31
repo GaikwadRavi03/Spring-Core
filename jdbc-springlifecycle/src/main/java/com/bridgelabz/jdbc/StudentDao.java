@@ -60,6 +60,7 @@ public class StudentDao {
 
 	}
 
+	@SuppressWarnings("resource")
 	public void insertStudent() throws SQLException {
 		Scanner sc = new Scanner(System.in);
 		String query = "insert into student values(?,?,?)";
@@ -89,6 +90,7 @@ public class StudentDao {
 
 	}
 
+	@SuppressWarnings("resource")
 	public void deleteStudentRecord() throws ClassNotFoundException, SQLException {
 		Scanner sc = new Scanner(System.in);
 
@@ -101,7 +103,7 @@ public class StudentDao {
 
 	}
 
-	// for distroy
+	// for destroy
 	@PreDestroy
 	public void distroy() throws SQLException {
 		System.out.println("inside destroy method");
